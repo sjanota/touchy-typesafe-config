@@ -3,6 +3,11 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.5'
+    distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
+}
+
 repositories {
     mavenCentral()
 }
@@ -13,3 +18,5 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
+
+apply from: 'publishing.gradle'

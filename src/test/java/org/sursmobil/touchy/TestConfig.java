@@ -2,7 +2,7 @@ package org.sursmobil.touchy;
 
 import org.sursmobil.touchy.api.Source;
 import org.sursmobil.touchy.core.Touchy;
-import org.sursmobil.touchy.source.EnvVar;
+import org.sursmobil.touchy.system.EnvVar;
 import org.sursmobil.touchy.typesafe.TypesafeConfig;
 
 import java.util.Collections;
