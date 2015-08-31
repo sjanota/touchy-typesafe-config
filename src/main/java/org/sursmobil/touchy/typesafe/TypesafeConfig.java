@@ -14,8 +14,8 @@ public class TypesafeConfig implements ValueSource {
     private final ListPropertyGetterFactory listPropertyGetterFactory;
     private final SinglePropertyGetterFactory singlePropertyGetterFactory;
 
-    public TypesafeConfig() {
-        config = ConfigFactory.load();
+    public TypesafeConfig(Config config) {
+        this.config = config;
         listPropertyGetterFactory = new ListPropertyGetterFactory(this);
         singlePropertyGetterFactory = new SinglePropertyGetterFactory(this);
     }
