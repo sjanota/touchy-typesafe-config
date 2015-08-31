@@ -34,11 +34,11 @@ uploadArchives {
             pom.project {
                 name 'Touchy Typesafe Config'
                 description 'Deployment sensitive configuration library for Java'
-                url 'http://github.com/sursmobil/touchy'
+                url 'http://github.com/sursmobil/touchy-typesafe-config'
                 scm {
-                    url 'http://github.com/sursmobil/touchy.git'
-                    connection 'scm:git:git://github.com/sursmobil/touchy.git'
-                    developerConnection 'scm:git:ssh:git@github.com:sursmobil/touchy.git'
+                    url 'http://github.com/sursmobil/touchy-typesafe-config.git'
+                    connection 'scm:git:git://github.com/sursmobil/touchy-typesafe-config.git'
+                    developerConnection 'scm:git:ssh:git@github.com:sursmobil/touchy-typesafe-config.git'
                 }
                 licenses {
                     license {
